@@ -6,15 +6,16 @@ source "https://rubygems.org"
 
 group :development do
   gem "pry"
-  gem 'octokit', '~> 2.0'
-  gem 'sinatra', '1.4.4'
-  gem 'hashie'
-  # gem 'nokogiri', :git => 'git@github.com:awesome-print\awesome_print\.git'
 
-
-  # gem "AwesomePrint"
 end
 # gem "rspec", group: :test
 group :test do
   gem "rspec"
+  gem 'octokit', '~> 2.0'
+  gem 'sinatra', '1.4.4'
+  gem 'hashie'
+  gem "awesome_print", git: "git@github.com:awesome-print/awesome_print.git"
+
+
+  # gem "awesome_print"
 end

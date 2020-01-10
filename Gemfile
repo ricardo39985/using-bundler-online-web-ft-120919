@@ -2,7 +2,7 @@ source "https://rubygems.org"
 gem 'octokit', '~> 2.0'
 gem "sinatra", "1.4.4"
 gem "hashie"
-gem 'awesome-print', :git => 'git@github.com:awesome-print\awesome_print\.git'
+gem 'AwesomePrint', :git => 'git@github.com:awesome-print\awesome_print\.git'
 
 group :development do
   gem "pry"
